@@ -11,7 +11,7 @@ spec:
   nodeSelector:
     project: roboshop 
   #this is showing the booking confiramtion 
-  toleration:
+  tolerations:
   - key: "project"  
     operator: "Equal"
     value: "roboshop"
