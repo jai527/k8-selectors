@@ -7,8 +7,12 @@ spec:
   containers:
   - name: nginx
     image: nginx
+  # like asking for VIP room
+  nodeSelector:
+    project: roboshop 
+  #this is showing the booking confiramtion 
   toleration:
   - key: "project"  
     operator: "Equal"
     value: "roboshop"
-    effect: "NoSchedule"
+    effect: "NoExecute"
