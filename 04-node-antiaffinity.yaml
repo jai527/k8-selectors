@@ -15,24 +15,7 @@ spec:
             operator: NotIn
             values:
             - us-east-1b
-            - us-east-1d
-  #     # Soft rule 
-  #     preferredDuringSchedulingIgnoredDuringExecution:
-  #     # anti afffinity 
-  #     - weight: 100
-  #       preference:
-  #         matchExpressions:
-  #         - key: project
-  #           operator: NotIn
-  #           values:
-  #           - roboshop
-  #     - weight: 10
-  #       preference:
-  #         matchExpressions:
-  #         - key: project
-  #           operator: In
-  #           values:
-  #           - amazon           
+            - us-east-1d           
     containers:
     - name: nginx
       image: nginx           
