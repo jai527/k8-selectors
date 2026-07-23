@@ -16,6 +16,6 @@ spec:
             values:
             - us-east-1b
             - us-east-1d           
-    containers:
-    - name: nginx
-      image: nginx           
+  containers:
+  - name: nginx
+    image: nginx           
