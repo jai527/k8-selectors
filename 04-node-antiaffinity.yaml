@@ -15,7 +15,7 @@ spec:
             operator: NotIn
             values:
             - us-east-1b
-            - us-east-1d           
+          - key:            
   containers:
   - name: nginx
     image: nginx           
